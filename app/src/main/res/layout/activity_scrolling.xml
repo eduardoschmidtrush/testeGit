@@ -30,6 +30,12 @@
                 app:layout_collapseMode="pin"
                 app:popupTheme="@style/Theme.TopGit.PopupOverlay" />
 
+        <ListView
+         android:id="@+id/pagination_list"
+         android:layout_height="wrap_content"
+         android:layout_width="match_parent">
+        </ListView>
+
         </com.google.android.material.appbar.CollapsingToolbarLayout>
     </com.google.android.material.appbar.AppBarLayout>
 
